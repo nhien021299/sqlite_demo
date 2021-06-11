@@ -2,7 +2,6 @@ import 'package:injectable/injectable.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqlite_demo/core/exceptions/sqlite_exception.dart';
 import 'package:sqlite_demo/modules/drink/domain/models/drink.dart';
-import 'package:sqlite_demo/modules/drink/domain/models/photo.dart';
 
 abstract class DrinkDatasource {
   Future<List<Drink>> getDrinks();

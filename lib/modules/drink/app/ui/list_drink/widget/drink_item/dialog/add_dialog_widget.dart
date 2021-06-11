@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:sqlite_demo/injector.dart';
 import 'package:suga_core/suga_core.dart';
 import 'add_dialog_view_model.dart';
